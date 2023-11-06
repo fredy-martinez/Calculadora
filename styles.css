@@ -20,6 +20,7 @@ body{
     padding: 1.5rem;
     border-radius: 1rem;
     gap: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .screen{
@@ -42,9 +43,24 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: .5rem;
+    cursor: pointer;
 }
 
 .btn:hover{
     background-color: #5f6caf;
+}
+
+#zero{
+    grid-column: span 2;
+
+}
+
+#equal{
+    grid-row: span 2;
+    background-color: #5585b5;
+}
+
+#equal:hover{
+    background-color: #79c2d0;
 }
 
